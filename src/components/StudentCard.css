@@ -1,0 +1,20 @@
+.student-card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #f9f9f9;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
